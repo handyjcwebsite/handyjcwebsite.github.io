@@ -23,7 +23,7 @@
         <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right"> 
             <li><a href="#about">About</a></li>      
-            <li><a href="#portfolio">Services</a></li>    
+            <li><a href="#services">Services</a></li>    
             <li><a href="#work">Work</a></li>
         </ul>
         </div>
@@ -42,19 +42,21 @@
           <h4 class="modal-title">Team</h4> </div>
         <div class="modal-body">
           <div>
-            
+            <div class="col-lg-12 col-sm-3 text-center"><img class="img-circle img-responsive" style="margin: 0 auto;size: 20%;" src="http://imgur.com/mjqIUl3.png" width="20%" alt="">
+            <h3>Cookie Monster <small>Professional Cookie eater</small></h3>
+            <p>I like to eat cookies all day. No cookie, no good day. Cookie is life</p>
+            </div>
+
             </div>
         </div>
         <div class="modal-footer"> </div>
       </div>
     </div>
 
-    <div class="jumbotron text-center" id="mainpage">  
-        <h1>HandyMan</h1>     
-        <p>Company moto or something else.</p> 
-        <div class="container">
-      <br>   
-        </div>   
+    <div class="jumbotron text-center" id="mainpage"> 
+        <p style="color:#FF7043;font-size:50px;font-weight:400px;">Why Us?</p>     
+        <a href="#work" class="btn btn-primary btn-md-lg">See Our Work</a>
+        
     </div>
 
     <div id="modalout">
@@ -68,7 +70,6 @@
           <h4 class="modal-title">Contact</h4> </div>
         <div class="modal-body">
           <div>
-            <p>Contact us and we'll get back to you within 24 hours.</p>
             <p>Call us:</p>
             <a class="glyphicon glyphicon-phone textio" href="tel://1-555-555-5555"> (555) 555-5555</a>
             <p>Email us:</p>
@@ -80,6 +81,9 @@
             <a href="https://twitter.com" target="--blank"><button type="button" class="btn btn-danger">Twitter</button></a>
             <a href="https://www.instagram.com" target="--blank"><button type="button" class="btn btn-danger">Instagram</button></a>
             <a href="https://www.facebook.com" target="--blank"><button type="button" class="btn btn-danger">Facebook</button></a>
+            <br>
+            <br>
+            <iframe width="100%" height="150" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ3a-_JdJQwokR2SXNohPwSQI&key=AIzaSyA5scLRn-fqZkaIWhhPxgaAklsZEAnWxR4"></iframe>
             
             
             
@@ -95,30 +99,32 @@
 <!-- About section -->
     <div id="about" class="container-fluid">
     <div class="row text-center">
-        <div class="col-sm-12">
-        <h2>About Company Page</h2><br>
-        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-        </div>
+        <div class="text-center">
+			<div class="col-sm-8 col-sm-offset-2">
+				<h2 class="title-one">HandyJC</h2>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+			</div>
+		</div>  
+    </div>
+    </div>
+ 
+    <div class="container-fluid text-center">
+        <p style="color:#3498DB;font-size:50px;font-weight:400px;">Why Us?</p>
+        <br>
         
-    </div>
-    </div>
-
-    
-    <div class="container-fluid">
     <div class="row text-center">
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 aboutinfo">
-            <h2>Quality</h2>
+            <h2 style="color:#3498DB;">Quality</h2>
             <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 aboutinfo">
-            <h2>Support</h2>
+            <h2 style="color:#3498DB;">Support</h2>
             <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 aboutinfo">
-            <h2>Modern Style</h2>
+            <h2 style="color:#3498DB;">Modern Style</h2>
             <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
         </div>
@@ -127,239 +133,64 @@
 
 
 <!-- Services Section -->
-    <div id="portfolio" class="container-fluid text-center bg-grey">
-    <h2>Services</h2><br>
-    <h4>Heres what we offer</h4>
+    <div id="services" class="text-center" >
+        <p style="color:#4CAF50;font-size:50px;font-weight:400px;">Services</p>
+    <div class="container-fluid">
     <div class="row text-center">
-        <div class="col-sm-4">
-        <div class="thumbnail">
-            <img src="http://i.imgur.com/cMWbJpx.jpg" alt="Service1" width="400" height="300">
-            <p><strong>Service1</strong></p>
-            <p>We have this service</p>
-            <button class="btn btn-info btn-lg" data-toggle="collapse" data-target="#service1info">More Info</button>
-            <div id="service1info" class="collapse">
-            More info about the service can go in here. More info about the service can go in here.More info about the service can go in here
-            .More info about the service can go in here.More info about the service can go in here.More info about the service can go in here.More info about the service can go in here.
-            </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 aboutinfo">
+            <img class="img-responsive center-block" src="http://imgur.com/3Tw1jm8.png" width="20%" alt="">
+            <h2 style="color:#4CAF50;">Electric</h2>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
         </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 aboutinfo">
+            <img class="img-responsive center-block" src="http://imgur.com/yDqq14w.png" width="53%"  alt="">
+            <h2 style="color:#4CAF50;">Plumbing</h2>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
         </div>
-        <div class="col-sm-4">
-        <div class="thumbnail">
-            <img src="http://i.imgur.com/cMWbJpx.jpg" alt="Service2" width="400" height="300">
-            <p><strong>Service2</strong></p>
-            <p>We have this service</p>
-            <button class="btn btn-info btn-lg" data-toggle="collapse" data-target="#service2info">More Info</button>
-            <div id="service2info" class="collapse">
-            More info about the service can go in here. More info about the service can go in here.More info about the service can go in here
-            .More info about the service can go in here.More info about the service can go in here.More info about the service can go in here.More info about the service can go in here.
-            </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 aboutinfo">
+            <img class="img-responsive center-block" src="http://imgur.com/xbEPdKi.png" width="40%"  alt="">
+            <h2 style="color:#4CAF50;">Painting</h2>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
         </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 aboutinfo">
+            <img class="img-responsive center-block" src="http://imgur.com/icQG8Gi.png" width="55%"  alt="">
+            <h2 style="color:#4CAF50;">Exterior</h2>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
         </div>
-        <div class="col-sm-4">
-        <div class="thumbnail">
-            <img src="http://i.imgur.com/cMWbJpx.jpg" alt="Service3" width="400" height="300">
-            <p><strong>Service3</strong></p>
-            <p>We have this service</p>
-            <button class="btn btn-info btn-lg" data-toggle="collapse" data-target="#service3info">More Info</button>
-            <div id="service3info" class="collapse">
-            More info about the service can go in here. More info about the service can go in here.More info about the service can go in here
-            .More info about the service can go in here.More info about the service can go in here.More info about the service can go in here.More info about the service can go in here.
-            </div>
-        </div>
-        </div>
-        <div class="col-sm-4">
-        <div class="thumbnail">
-            <img src="http://i.imgur.com/cMWbJpx.jpg" alt="San Francisco" width="400" height="300">
-            <p><strong>Service3</strong></p>
-            <p>We have this service</p>
-            <button class="btn btn-info btn-lg" data-toggle="collapse" data-target="#service4info">More Info</button>
-            <div id="service4info" class="collapse">
-            More info about the service can go in here. More info about the service can go in here.More info about the service can go in here
-            .More info about the service can go in here.More info about the service can go in here.More info about the service can go in here.More info about the service can go in here.
-            </div>
-        </div>
-        </div>
-        <div class="col-sm-4">
-        <div class="thumbnail">
-            <img src="http://i.imgur.com/cMWbJpx.jpg" alt="Service1" width="400" height="300">
-            <p><strong>Service1</strong></p>
-            <p>We have this service</p>
-            <button class="btn btn-info btn-lg" data-toggle="collapse" data-target="#service5info">More Info</button>
-            <div id="service5info" class="collapse">
-            More info about the service can go in here. More info about the service can go in here.More info about the service can go in here
-            .More info about the service can go in here.More info about the service can go in here.More info about the service can go in here.More info about the service can go in here.
-            </div>
-        </div>
-        </div>
-        <div class="col-sm-4">
-        <div class="thumbnail">
-            <img src="http://i.imgur.com/cMWbJpx.jpg" alt="Service1" width="400" height="300">
-            <p><strong>Service1</strong></p>
-            <p>We have this service</p>
-            <button class="btn btn-info btn-lg" data-toggle="collapse" data-target="#service6info">More Info</button>
-            <div id="service6info" class="collapse">
-            More info about the service can go in here. More info about the service can go in here.More info about the service can go in here
-            .More info about the service can go in here.More info about the service can go in here.More info about the service can go in here.More info about the service can go in here.
-            </div>
-        </div>
-        </div>
-    </div><br>   
+    </div>
+    </div>
     </div>
 
     
-    <div class="container text-center">
-    <h2>Work</h2>
-    <ul class="nav nav-tabs text-center">
-        <li class="active"><a data-toggle="tab" href="#home">Room</a></li>
-        <li><a data-toggle="tab" href="#menu1">House</a></li>
-        <li><a data-toggle="tab" href="#menu2">Hotel</a></li>
-        <li><a data-toggle="tab" href="#menu3">Yard</a></li>
-    </ul>
 
-    <div class="tab-content" id="work">
-        <div id="home" class="tab-pane fade in active">
-            <div class="row-fluid text-center">
-                <div class="col-lg-12">
-                    <h1 class="page-header">Work Gallery</h1>
+    <div id="work" class="container text-center">
+        <p style="color:#f44336;font-size:50px;font-weight:400px;">Our Work</p>
+    <div class="row-fluid">
+		<div class="col-md-12">
+                	<div class="row">
+                	  <div class="col-md-3 col-sm-6 col-xs-6"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+                      <div class="col-md-3 col-sm-6 col-xs-6"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+                      <div class="col-md-3 col-sm-6 col-xs-6"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+                      <div class="col-md-3 col-sm-6 col-xs-6"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+                	</div>
                 </div>
-
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                    <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                        <p>Info</p>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                    <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                        <p>Info</p>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                    <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                        <p>Info</p>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                    <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                        <p>Info</p>
-                    </a>
-                </div>           
             </div>
-            <p>Work Detail or about the pictures</p>
-            <p>Work Detail or about the pictures</p> 
-            <p>Work Detail or about the pictures</p>
-        </div>
-        <div id="menu1" class="tab-pane fade">
-            <div class="row-fluid">
-                <div class="col-lg-12">
-                    <h1 class="page-header">Work Gallery</h1>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                    <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                        <p>Info</p>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                    <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                        <p>Info</p>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                    <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                        <p>Info</p>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                    <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                        <p>Info</p>
-                    </a>
-                </div>           
-            </div>
-            <p>Work Detail or about the pictures</p>
-            <p>Work Detail or about the pictures</p> 
-            <p>Work Detail or about the pictures</p>
-        </div>
-        <div id="menu2" class="tab-pane fade">
-            <div class="row-fluid">
-                <div class="col-lg-12">
-                    <h1 class="page-header">Work Gallery</h1>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                    <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                        <p>Info</p>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                    <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                        <p>Info</p>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                    <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                        <p>Info</p>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                    <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                        <p>Info</p>
-                    </a>
-                </div>           
-            </div>
-            <p>Work Detail or about the pictures</p>
-            <p>Work Detail or about the pictures</p> 
-            <p>Work Detail or about the pictures</p>
-        </div>
-        <div id="menu3" class="tab-pane fade">
-            <div class="row-fluid">
-                <div class="col-lg-12">
-                    <h1 class="page-header">Work Gallery</h1>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                    <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                        <p>Info</p>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                    <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                        <p>Info</p>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                    <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                        <p>Info</p>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                    <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                        <p>Info</p>
-                    </a>
-                </div>           
-            </div>
-            <p>Work Detail or about the pictures</p>
-            <p>Work Detail or about the pictures</p> 
-            <p>Work Detail or about the pictures</p>
         </div>
     </div>
-    </div>
-
+    
+    <footer>	
+            
+			<div class="container text-center">
+				<h5>All Rights Reserved © 2017 By Saeed Malik (company copyright goes here)</h5>
+			</div>
+			</div>
+    </footer>
+			 
+    
 
     
 
@@ -377,6 +208,7 @@
       this.$modalout2.find('.modaloutTab2').on('click', function() {
         $("#modalout2").toggleClass('showmodalout2');
       });
+     
   </script>
 </body>
 </html>
